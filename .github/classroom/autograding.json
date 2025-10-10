@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "Autograding Test",
+      "setup": "npm install",
+      "run": "npm test",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
