@@ -45,3 +45,139 @@
 // TODO: Implement a function isEven(num) that returns true if even, false if odd
 
 //  Remember: Leave all TODOs for you to complete! No answers are given.
+
+console.log("Calculator")
+let number1;
+let number2;
+let operator;
+let result;
+for (let i = 0; i < 100; i++) {
+  number1 = prompt("enter number one :")
+  operator = prompt("Enter your operator:")
+  number2 = prompt("Enter number two:")
+
+
+  if (operator === "+") {
+    console.log(`${number1} + ${number2}`);
+    result = number1 + number2;
+    if (result%2===0){
+      console.log("your result is Even")
+
+    }
+    else{
+      console.log("Your number is odd")
+    }
+
+    if(prompt("do you want continue or no:")==="yes"){
+    continue
+    } 
+    else{
+      break
+    }
+
+  }
+
+
+
+  else if (operator === "-") {
+    console.log(number1 - number2)
+    result = number1 - number2;
+      if (result%2===0){ if(prompt("do you want continue or no:")==="yes"){
+    continue
+    }
+    else{
+      break
+    }
+      console.log("your result is Even")
+ if(prompt("do you want continue or no:")==="yes"){
+    continue
+    }
+    else{
+      break
+    }
+    }
+    else{
+      console.log("Your number is odd")
+    }
+
+     if(prompt("do you want continue or no:")==="yes"){
+    continue
+    }
+    else{
+      break
+    }
+
+
+  }
+
+
+
+  else if (operator === "*") {
+    console.log(number1 * number2)
+    result = number1 * number2;
+      if (result%2===0){
+      console.log("your result is Even")
+
+    }
+    else{
+      console.log("Your number is odd")
+    }
+
+ if(prompt("do you want continue or no:")==="yes"){
+    continue
+    }
+    else{
+      break
+    }
+
+
+  }
+  else if (operator === "/") {
+    console.log(number1 / number2)
+    result = number1 / number2;
+      if (result%2===0){
+      console.log("your result is Even")
+
+    }
+    else{
+      console.log("Your number is odd")
+    }
+
+     if(prompt("do you want continue or no:")==="yes"){
+    continue
+    }
+    else{
+      break
+    }
+    if(prompt("do you want continue or no:")==="yes"){
+    continue
+    } 
+    else{
+      break
+    }
+
+  }
+
+  else if (i === 4) {
+    break
+  }
+
+
+
+  else {
+    console.log("inviald number")
+
+     if(prompt("do you want continue or no:")==="yes"){
+    continue
+    }
+    else{
+      break
+    }
+  }
+
+  
+
+}
+
+
+
